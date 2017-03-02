@@ -179,7 +179,12 @@ $(document).ready(function() {
 
 			case 'appt-no':
 
-				showHide(['#book-appointment'],[]);
+				showHide(['#book-appt'],[]);
+				break;
+
+		 case 'book-appt-ready':
+
+			  showHide(['#new-construction'],[]);
 				break;
 
 			case 'new-construction-yes':
